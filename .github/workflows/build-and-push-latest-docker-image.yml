@@ -30,4 +30,4 @@ jobs:
         with:
           context: exporter-go
           push: true
-          tags: kohlstechnology/opa_scorecard_exporter:latest
+          tags: quay.io/kohlstechnology/opa_scorecard_exporter:latest
