@@ -39,6 +39,6 @@ jobs:
       - name: Build and push to quay.io
         uses: docker/build-push-action@v4
         with:
-          context: .
+          context: exporter-go
           push: true
           tags: ${{ steps.prep.outputs.tags }}
