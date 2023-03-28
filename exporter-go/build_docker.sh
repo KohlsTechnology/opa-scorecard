@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGE=${1:-mcelep/opa_scorecard_exporter:v0.0.3}
+IMAGE=${1:-quay.io/kohlstechnology/opa_scorecard_exporter:v0.0.3}
 
 
 docker build --tag="${IMAGE}" .
