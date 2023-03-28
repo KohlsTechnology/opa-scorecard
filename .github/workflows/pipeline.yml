@@ -24,7 +24,7 @@ jobs:
       - name: Prepare
         id: prep
         run: |
-          DOCKER_IMAGE=quay.io/kohlstechnology/prometheus_bigquery_remote_storage_adapter
+          DOCKER_IMAGE=quay.io/kohlstechnology/opa_scorecard_exporter
           VERSION=${GITHUB_REF#refs/tags/}
           TAGS="${DOCKER_IMAGE}:${VERSION},${DOCKER_IMAGE}:latest"
           echo "tags=${TAGS}" >> $GITHUB_OUTPUT
