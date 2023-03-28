@@ -35,7 +35,7 @@ jobs:
         with:
           context: exporter-go
           push: true
-          tags: kohlstechnology/opa_scorecard_exporter:${{ steps.get_version.outputs.VERSION }}
+          tags: quay.io/kohlstechnology/opa_scorecard_exporter:${{ steps.get_version.outputs.VERSION }}
 
       - name: Release
         uses: softprops/action-gh-release@v1
